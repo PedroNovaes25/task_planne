@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tcS4G7I++V7uQ4ga3j6jiWkO+WzeodTCtX1C+JY1G6+i40VG25XSvgvVgrB7jGxdKBtjOpR0sKPAl/51wH0SdA==",
+  "dgSpecHash": "2V5RgCumcvC+3HX8S1yQ8fopWwpBxXYuBOXmeSMP2guCmU+hpmwGma9X7iS6C4BtiA7HRQ2FfTYOtFsYJCKC4Q==",
   "success": true,
-  "projectFilePath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj",
+  "projectFilePath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro.novaes\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.9\\microsoft.aspnetcore.jsonpatch.5.0.9.nupkg.sha512",
     "C:\\Users\\pedro.novaes\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.9.nupkg.sha512",

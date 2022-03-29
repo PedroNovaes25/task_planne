@@ -1524,17 +1524,31 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "TaskPlanne.Dominio/1.0.0": {
+      "TaskPlanner.Aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "TaskPlanner.Dominio": "1.0.0",
+          "TaskPlanner.Persistencia": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskPlanner.Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskPlanner.Aplicacao.dll": {}
+        }
+      },
+      "TaskPlanner.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/TaskPlanne.Dominio.dll": {}
+          "bin/placeholder/TaskPlanner.Dominio.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TaskPlanne.Dominio.dll": {}
+          "bin/placeholder/TaskPlanner.Dominio.dll": {}
         }
       },
-      "TaskPlanne.Persistencia/1.0.0": {
+      "TaskPlanner.Persistencia/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1542,27 +1556,13 @@
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
-          "TaskPlanne.Dominio": "1.0.0"
+          "TaskPlanner.Dominio": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TaskPlanne.Persistencia.dll": {}
+          "bin/placeholder/TaskPlanner.Persistencia.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TaskPlanne.Persistencia.dll": {}
-        }
-      },
-      "TaskPlanneAplicacao/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "TaskPlanne.Dominio": "1.0.0",
-          "TaskPlanne.Persistencia": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TaskPlanneAplicacao.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TaskPlanneAplicacao.dll": {}
+          "bin/placeholder/TaskPlanner.Persistencia.dll": {}
         }
       }
     }
@@ -5714,20 +5714,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "TaskPlanne.Dominio/1.0.0": {
+    "TaskPlanner.Aplicacao/1.0.0": {
       "type": "project",
-      "path": "../TaskPlanne.Dominio/TaskPlanne.Dominio.csproj",
-      "msbuildProject": "../TaskPlanne.Dominio/TaskPlanne.Dominio.csproj"
+      "path": "../TaskPlanneAplicacao/TaskPlanner.Aplicacao.csproj",
+      "msbuildProject": "../TaskPlanneAplicacao/TaskPlanner.Aplicacao.csproj"
     },
-    "TaskPlanne.Persistencia/1.0.0": {
+    "TaskPlanner.Dominio/1.0.0": {
       "type": "project",
-      "path": "../TaskPlanne.Persistencia/TaskPlanne.Persistencia.csproj",
-      "msbuildProject": "../TaskPlanne.Persistencia/TaskPlanne.Persistencia.csproj"
+      "path": "../TaskPlanne.Dominio/TaskPlanner.Dominio.csproj",
+      "msbuildProject": "../TaskPlanne.Dominio/TaskPlanner.Dominio.csproj"
     },
-    "TaskPlanneAplicacao/1.0.0": {
+    "TaskPlanner.Persistencia/1.0.0": {
       "type": "project",
-      "path": "../TaskPlanneAplicacao/TaskPlanneAplicacao.csproj",
-      "msbuildProject": "../TaskPlanneAplicacao/TaskPlanneAplicacao.csproj"
+      "path": "../TaskPlanne.Persistencia/TaskPlanner.Persistencia.csproj",
+      "msbuildProject": "../TaskPlanne.Persistencia/TaskPlanner.Persistencia.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5737,8 +5737,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.9",
       "Swashbuckle.AspNetCore >= 5.6.3",
-      "TaskPlanne.Persistencia >= 1.0.0",
-      "TaskPlanneAplicacao >= 1.0.0"
+      "TaskPlanner.Aplicacao >= 1.0.0",
+      "TaskPlanner.Persistencia >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5747,9 +5747,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanne.csproj",
-      "projectName": "TaskPlanne",
-      "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanne.csproj",
+      "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanner.csproj",
+      "projectName": "TaskPlanner",
+      "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanner.csproj",
       "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
       "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\obj\\",
       "projectStyle": "PackageReference",
@@ -5768,11 +5768,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj": {
-              "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj"
+            "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
+              "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj"
             },
-            "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj": {
-              "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj"
+            "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj": {
+              "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj"
             }
           }
         }

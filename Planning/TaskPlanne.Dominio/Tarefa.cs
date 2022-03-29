@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskPlanne.Dominio
+namespace TaskPlanner.Dominio
 {
     public class Tarefa
     {

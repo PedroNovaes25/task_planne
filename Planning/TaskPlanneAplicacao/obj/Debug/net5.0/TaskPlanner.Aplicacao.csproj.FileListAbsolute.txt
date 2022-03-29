@@ -1,0 +1,17 @@
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Aplicacao.deps.json
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Aplicacao.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\ref\TaskPlanner.Aplicacao.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Aplicacao.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Dominio.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Persistencia.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Dominio.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\bin\Debug\net5.0\TaskPlanner.Persistencia.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.csproj.AssemblyReference.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.AssemblyInfoInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.AssemblyInfo.cs
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.csproj.CoreCompileInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.csproj.CopyComplete
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\ref\TaskPlanner.Aplicacao.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanneAplicacao\obj\Debug\net5.0\TaskPlanner.Aplicacao.pdb

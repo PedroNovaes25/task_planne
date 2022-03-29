@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanner.csproj": {}
+  },
+  "projects": {
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanner.csproj",
+        "projectName": "TaskPlanner",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\TaskPlanner.csproj",
+        "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
+        "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlane\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pedro.novaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj"
+              },
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj",
+        "projectName": "TaskPlanner.Dominio",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj",
+        "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
+        "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pedro.novaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
+        "projectName": "TaskPlanner.Persistencia",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
+        "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pedro.novaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj",
+        "projectName": "TaskPlanner.Aplicacao",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
+        "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pedro.novaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj"
+              },
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

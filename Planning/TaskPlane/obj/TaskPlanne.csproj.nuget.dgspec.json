@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj": {
-                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj"
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj"
               },
-              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj": {
-                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj"
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj"
               }
             }
           }
@@ -94,12 +94,12 @@
         }
       }
     },
-    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj": {
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj",
-        "projectName": "TaskPlanne.Dominio",
-        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj",
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj",
+        "projectName": "TaskPlanner.Dominio",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj",
         "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
         "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\obj\\",
         "projectStyle": "PackageReference",
@@ -148,12 +148,12 @@
         }
       }
     },
-    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj": {
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj",
-        "projectName": "TaskPlanne.Persistencia",
-        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj",
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
+        "projectName": "TaskPlanner.Persistencia",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
         "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
         "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
@@ -172,8 +172,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj": {
-                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj"
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj"
               }
             }
           }
@@ -236,12 +236,12 @@
         }
       }
     },
-    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj": {
+    "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj",
-        "projectName": "TaskPlanneAplicacao",
-        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanneAplicacao.csproj",
+        "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj",
+        "projectName": "TaskPlanner.Aplicacao",
+        "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\TaskPlanner.Aplicacao.csproj",
         "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
         "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanneAplicacao\\obj\\",
         "projectStyle": "PackageReference",
@@ -260,11 +260,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj": {
-                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj"
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj"
               },
-              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj": {
-                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj"
+              "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj": {
+                "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj"
               }
             }
           }

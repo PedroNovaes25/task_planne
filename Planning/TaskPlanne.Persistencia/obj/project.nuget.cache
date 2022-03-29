@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1f70xbyOd3DvoOtrRk2IG5xVGa1vCtjYTyeuWF5xaPiOy81r58pDgAghwmH3/fcfhcscvuiiUtaBjpE/K4hmcg==",
+  "dgSpecHash": "caWyPyi/98rlOIWXXlxw3LF3oWOQtJmF5M+Ngd9PobMnGSRwHiEAxEMocebTq79zDyO2t5yhTo7ON8u3Pyl42w==",
   "success": true,
-  "projectFilePath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj",
+  "projectFilePath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro.novaes\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pedro.novaes\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.9\\microsoft.aspnetcore.jsonpatch.5.0.9.nupkg.sha512",

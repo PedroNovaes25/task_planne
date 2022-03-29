@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskPlanne.Persistencia.Interface
+namespace TaskPlanner.Persistencia.Interface
 {
     public interface IGeralPersistencia
     {

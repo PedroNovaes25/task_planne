@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj",
-      "projectName": "TaskPlanne.Dominio",
-      "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj",
+      "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj",
+      "projectName": "TaskPlanner.Dominio",
+      "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj",
       "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
       "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\obj\\",
       "projectStyle": "PackageReference",

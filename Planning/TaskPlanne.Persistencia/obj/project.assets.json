@@ -1450,14 +1450,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "TaskPlanne.Dominio/1.0.0": {
+      "TaskPlanner.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/TaskPlanne.Dominio.dll": {}
+          "bin/placeholder/TaskPlanner.Dominio.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TaskPlanne.Dominio.dll": {}
+          "bin/placeholder/TaskPlanner.Dominio.dll": {}
         }
       }
     }
@@ -5502,10 +5502,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "TaskPlanne.Dominio/1.0.0": {
+    "TaskPlanner.Dominio/1.0.0": {
       "type": "project",
-      "path": "../TaskPlanne.Dominio/TaskPlanne.Dominio.csproj",
-      "msbuildProject": "../TaskPlanne.Dominio/TaskPlanne.Dominio.csproj"
+      "path": "../TaskPlanne.Dominio/TaskPlanner.Dominio.csproj",
+      "msbuildProject": "../TaskPlanne.Dominio/TaskPlanner.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5516,7 +5516,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.9",
-      "TaskPlanne.Dominio >= 1.0.0"
+      "TaskPlanner.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5525,9 +5525,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj",
-      "projectName": "TaskPlanne.Persistencia",
-      "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanne.Persistencia.csproj",
+      "projectUniqueName": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
+      "projectName": "TaskPlanner.Persistencia",
+      "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\TaskPlanner.Persistencia.csproj",
       "packagesPath": "C:\\Users\\pedro.novaes\\.nuget\\packages\\",
       "outputPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
@@ -5546,8 +5546,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj": {
-              "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanne.Dominio.csproj"
+            "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj": {
+              "projectPath": "D:\\PedroNovaes\\Aprendizagem\\Desafio\\app to do\\task_planne\\Planning\\TaskPlanne.Dominio\\TaskPlanner.Dominio.csproj"
             }
           }
         }

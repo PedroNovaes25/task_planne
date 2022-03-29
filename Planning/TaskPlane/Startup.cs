@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TaskPlane
+namespace TaskPlanner
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace TaskPlane
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TaskPlane", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TaskPlanner", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace TaskPlane
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TaskPlane v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TaskPlanner v1"));
             }
 
             app.UseHttpsRedirection();

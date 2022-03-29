@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaskPlanne.Dominio;
-using TaskPlanne.Persistencia.Contexto;
-using TaskPlanne.Persistencia.Interface;
+using TaskPlanner.Dominio;
+using TaskPlanner.Persistencia.Contexto;
+using TaskPlanner.Persistencia.Interface;
 
 namespace TaskPlanne.Persistencia.Armazem
 {

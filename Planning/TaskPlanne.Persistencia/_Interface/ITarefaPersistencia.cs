@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaskPlanne.Dominio;
+using TaskPlanner.Dominio;
 
-namespace TaskPlanne.Persistencia.Interface
+namespace TaskPlanner.Persistencia.Interface
 {
     public interface ITarefaPersistencia
     {

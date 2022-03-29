@@ -1,6 +1,6 @@
 using System;
 
-namespace TaskPlane
+namespace TaskPlanner
 {
     public class WeatherForecast
     {

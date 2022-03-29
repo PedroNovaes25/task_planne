@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TaskPlanne.Persistencia\TaskPlanne.Persistencia.csproj" />
-    <ProjectReference Include="..\TaskPlanneAplicacao\TaskPlanneAplicacao.csproj" />
+    <ProjectReference Include="..\TaskPlanne.Persistencia\TaskPlanner.Persistencia.csproj" />
+    <ProjectReference Include="..\TaskPlanneAplicacao\TaskPlanner.Aplicacao.csproj" />
   </ItemGroup>
 
 </Project>

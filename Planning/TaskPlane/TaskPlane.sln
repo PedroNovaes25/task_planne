@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPlanne", "TaskPlanne.csproj", "{48393C49-3ADE-4325-B7FB-0375DEA4F953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskPlanner", "TaskPlanner.csproj", "{48393C49-3ADE-4325-B7FB-0375DEA4F953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPlanne.Dominio", "..\TaskPlanne.Dominio\TaskPlanne.Dominio.csproj", "{BE670AB2-DA4F-4123-8269-C1498CB59B35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskPlanner.Dominio", "..\TaskPlanne.Dominio\TaskPlanner.Dominio.csproj", "{BE670AB2-DA4F-4123-8269-C1498CB59B35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPlanne.Persistencia", "..\TaskPlanne.Persistencia\TaskPlanne.Persistencia.csproj", "{D555EBCA-B9E0-46D8-9595-44BF952E5E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskPlanner.Persistencia", "..\TaskPlanne.Persistencia\TaskPlanner.Persistencia.csproj", "{D555EBCA-B9E0-46D8-9595-44BF952E5E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskPlanneAplicacao", "..\TaskPlanneAplicacao\TaskPlanneAplicacao.csproj", "{2B0818D9-CC36-44DA-A58F-60241F2DF055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskPlanner.Aplicacao", "..\TaskPlanneAplicacao\TaskPlanner.Aplicacao.csproj", "{2B0818D9-CC36-44DA-A58F-60241F2DF055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

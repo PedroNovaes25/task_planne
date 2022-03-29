@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaskPlanne.Aplicacao;
-using TaskPlanne.Dominio;
-using TaskPlanne.Persistencia.Interface;
-using TaskPlanneAplicacao.Interface;
+using TaskPlanner.Aplicacao;
+using TaskPlanner.Dominio;
+using TaskPlanner.Persistencia.Interface;
+using TaskPlanner.Aplicacao.Interface;
 
-namespace TaskPlanneAplicacao
+namespace TaskPlanner.Aplicacao
 {
     public class TarefaServico : ITarefaServico
     {

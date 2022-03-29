@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TaskPlanne.Dominio\TaskPlanne.Dominio.csproj" />
+    <ProjectReference Include="..\TaskPlanne.Dominio\TaskPlanner.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

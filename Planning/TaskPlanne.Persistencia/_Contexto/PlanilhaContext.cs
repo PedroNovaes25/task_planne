@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaskPlanne.Dominio;
+using TaskPlanner.Dominio;
 
-namespace TaskPlanne.Persistencia.Contexto
+namespace TaskPlanner.Persistencia.Contexto
 {
     public class PlanilhaContext : DbContext
     {
