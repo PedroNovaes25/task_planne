@@ -1,6 +1,0 @@
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne\obj\Debug\net5.0\TaskPlanne.csproj.AssemblyReference.cache
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne\obj\Debug\net5.0\TaskPlanne.GeneratedMSBuildEditorConfig.editorconfig
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne\obj\Debug\net5.0\TaskPlanne.AssemblyInfoInputs.cache
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne\obj\Debug\net5.0\TaskPlanne.AssemblyInfo.cs
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne\obj\Debug\net5.0\TaskPlanne.csproj.CoreCompileInputs.cache
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne\obj\Debug\net5.0\TaskPlanne.MvcApplicationPartsAssemblyInfo.cache

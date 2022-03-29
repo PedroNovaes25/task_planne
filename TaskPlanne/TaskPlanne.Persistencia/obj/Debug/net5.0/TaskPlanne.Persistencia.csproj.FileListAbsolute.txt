@@ -1,5 +1,0 @@
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.csproj.AssemblyReference.cache
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.AssemblyInfoInputs.cache
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.AssemblyInfo.cs
-D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.csproj.CoreCompileInputs.cache
