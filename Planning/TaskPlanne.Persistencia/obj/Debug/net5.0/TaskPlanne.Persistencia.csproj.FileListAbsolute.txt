@@ -13,3 +13,6 @@ D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Pe
 D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.dll
 D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\ref\TaskPlanne.Persistencia.dll
 D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Persistencia.runtimeconfig.json
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Persistencia.runtimeconfig.dev.json
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.genruntimeconfig.cache
