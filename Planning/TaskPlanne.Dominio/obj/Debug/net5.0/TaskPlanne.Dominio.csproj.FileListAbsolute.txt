@@ -1,0 +1,12 @@
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\bin\Debug\net5.0\TaskPlanne.Dominio.deps.json
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\bin\Debug\net5.0\TaskPlanne.Dominio.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\bin\Debug\net5.0\ref\TaskPlanne.Dominio.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\bin\Debug\net5.0\TaskPlanne.Dominio.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.csproj.AssemblyReference.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.AssemblyInfoInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.AssemblyInfo.cs
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.csproj.CoreCompileInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\ref\TaskPlanne.Dominio.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Dominio\obj\Debug\net5.0\TaskPlanne.Dominio.pdb

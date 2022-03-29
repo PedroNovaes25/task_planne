@@ -1,0 +1,15 @@
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Persistencia.deps.json
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Persistencia.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\ref\TaskPlanne.Persistencia.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Persistencia.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Dominio.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\bin\Debug\net5.0\TaskPlanne.Dominio.pdb
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.csproj.AssemblyReference.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.AssemblyInfoInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.AssemblyInfo.cs
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.csproj.CoreCompileInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.csproj.CopyComplete
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\ref\TaskPlanne.Persistencia.dll
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\Planning\TaskPlanne.Persistencia\obj\Debug\net5.0\TaskPlanne.Persistencia.pdb

@@ -1,0 +1,4 @@
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Aplicacao\obj\Debug\net5.0\TaskPlanne.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Aplicacao\obj\Debug\net5.0\TaskPlanne.Aplicacao.AssemblyInfoInputs.cache
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Aplicacao\obj\Debug\net5.0\TaskPlanne.Aplicacao.AssemblyInfo.cs
+D:\PedroNovaes\Aprendizagem\Desafio\app to do\task_planne\TaskPlanne\TaskPlanne.Aplicacao\obj\Debug\net5.0\TaskPlanne.Aplicacao.csproj.CoreCompileInputs.cache

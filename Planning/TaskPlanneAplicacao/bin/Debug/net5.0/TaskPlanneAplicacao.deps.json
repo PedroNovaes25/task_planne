@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TaskPlanneAplicacao/1.0.0": {
+        "dependencies": {
+          "TaskPlanne.Dominio": "1.0.0",
+          "TaskPlanne.Persistencia": "1.0.0"
+        },
+        "runtime": {
+          "TaskPlanneAplicacao.dll": {}
+        }
+      },
+      "TaskPlanne.Dominio/1.0.0": {
+        "runtime": {
+          "TaskPlanne.Dominio.dll": {}
+        }
+      },
+      "TaskPlanne.Persistencia/1.0.0": {
+        "dependencies": {
+          "TaskPlanne.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "TaskPlanne.Persistencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskPlanneAplicacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskPlanne.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskPlanne.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
