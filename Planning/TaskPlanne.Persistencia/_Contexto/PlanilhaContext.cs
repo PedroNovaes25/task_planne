@@ -10,7 +10,8 @@ namespace TaskPlanner.Persistencia.Contexto
 {
     public class PlanilhaContext : DbContext
     {
-        public PlanilhaContext(DbContextOptions<PlanilhaContext> opcoes) : base(opcoes) { }
+        public PlanilhaContext(DbContextOptions<PlanilhaContext> options)
+              : base(options) { }
 
         public DbSet<Tarefa> Tarefas { get; set; }
         public DbSet<QuadroDeTarefas> QuadroDeTarefas { get; set; }
