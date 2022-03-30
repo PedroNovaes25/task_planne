@@ -21,7 +21,7 @@ namespace TaskPlanne.Persistencia.Armazem
 
         public async Task<List<QuadroDeTarefas>> PegarQuadros()
         {
-            IQueryable<QuadroDeTarefas> query = _context.QuadroDeTarefas;
+            IQueryable<QuadroDeTarefas> query = _context.QuadroDeTarefas.Include( t => t.Tarefas);
             query = query.AsNoTracking().Select(x => x);
 
             return await query.ToListAsync();
@@ -29,7 +29,7 @@ namespace TaskPlanne.Persistencia.Armazem
 
         public async Task<QuadroDeTarefas> PegarQuadroPorId(int idQuadro)
         {
-            IQueryable<QuadroDeTarefas> query = _context.QuadroDeTarefas;
+            IQueryable<QuadroDeTarefas> query = _context.QuadroDeTarefas.Include(t => t.Tarefas);
 
             query = query.AsNoTracking().Where(x => x.IdQuadro == idQuadro);
 

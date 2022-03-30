@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TaskPlanner.Aplicacao;
 using TaskPlanner.Aplicacao.Interface;
 
 namespace TaskPlanner.Controllers
@@ -28,7 +29,7 @@ namespace TaskPlanner.Controllers
             {
                 var tarefa = await _tarefaServico.PegarTarefaPorId(idTarefa);
                 if (tarefa == null)
-                    return NoContent();
+                    return NotFound();
 
                 return Ok(tarefa);
             }
@@ -41,13 +42,14 @@ namespace TaskPlanner.Controllers
 
         [HttpPost]
         [Route("")]
-        public IActionResult CriarTarefa([FromBody] object tarefa)
+        public async  Task<IActionResult> CriarTarefa([FromBody] TarefaDTO tarefaDto)
         {
             try
             {
-                //código que envia ao banco
+                var tarefa = await _tarefaServico.CriarTarefa(tarefaDto);
+                if (tarefa == null) return NoContent();
 
-                return Ok();
+                return Ok(tarefa);
             }
             catch (Exception ex)
             {
@@ -58,17 +60,20 @@ namespace TaskPlanner.Controllers
 
         [HttpDelete]
         [Route("Remover/{idTarefa}")]
-        public IActionResult DeletarTarefa(int idTarefa)
+        public async Task<IActionResult> DeletarTarefa(int idTarefa)
         {
             try
             {
-                //Procurar no banco onde tem uma tarefa com  IdTarefa existente
-                //if (existeTarefa == null)
-                //    return NoContent();
-
-                //Chamar o código de remover
-
-                return Ok();
+                var tarefa = await _tarefaServico.PegarTarefaPorId(idTarefa);
+                if (tarefa == null) return NotFound();
+                if (await _tarefaServico.DeletarTarefa(idTarefa))
+                {
+                    return Ok(new { message = "Deletado" });
+                }
+                else
+                {
+                    throw new Exception("Ocorreu um problema não específico ao tentar deletar Tarefa.");
+                }
             }
             catch (Exception ex)
             {
@@ -77,21 +82,16 @@ namespace TaskPlanner.Controllers
             }
         }
 
-        [HttpPatch]
-        [Route("{idQuadro}")]
-        public IActionResult AtualizarTarefa(int idQuadro, [FromBody] object tarefaDetalheDTO)
+        [HttpPatch] //Nao funciona, verificar o pq
+        [Route("{idTarefa}")]
+        public async Task<IActionResult> AtualizarTarefa(int idTarefa, [FromBody] TarefaDTO tarefaDetalheDTO)
         {
             try
             {
-                //Pegar do banco onde tarefa tenha idquadro e tarefaDetalhe.id existente
+                var tarefa = await _tarefaServico.AtualizarTarefa(idTarefa, tarefaDetalheDTO);
+                if (tarefa == null) return NoContent();
 
-                //Procurar no banco onde tem uma tarefa com idQuadro e IdTarefa existente
-                //if (existeTarefa == null)
-                //    return NoContent();
-
-                //Chamar o código de atualizacao
-
-                return Ok();
+                return Ok(tarefa);
             }
             catch (Exception ex)
             {

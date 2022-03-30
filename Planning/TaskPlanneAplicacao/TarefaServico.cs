@@ -44,7 +44,7 @@ namespace TaskPlanner.Aplicacao
             {
                 var eventoRetorno = await _tarefaPersistencia.PegarTarefaPorId(model.IdTarefa);
 
-                return new TarefaDTO(model);
+                return new TarefaDTO(eventoRetorno);
             }
             return null;
         }

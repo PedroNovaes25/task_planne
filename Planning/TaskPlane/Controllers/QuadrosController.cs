@@ -22,11 +22,14 @@ namespace TaskPlanner.Controllers
 
         [HttpPost]
         [Route("")]
-        public IActionResult CriarQuadro([FromBody] QuadroInfoDTO quadroInfoDTO)
+        public async Task<IActionResult> CriarQuadro([FromBody] QuadroInfoDTO quadroInfoDTO)
         {
             try
             {
-                return NoContent();
+                var quadro = await _quadroDeTarefasServico.CriarQuadro(quadroInfoDTO);
+                if (quadro == null) return NoContent();
+
+                return Ok(quadro);
 
             }
             catch (Exception ex)
@@ -38,13 +41,14 @@ namespace TaskPlanner.Controllers
 
         [HttpGet]
         [Route("")]
-        public IActionResult PegarQuadros()
+        public async Task<IActionResult> PegarQuadros()
         {
             try
             {
+                var quadros = await _quadroDeTarefasServico.PegarQuadros();
+                if (quadros == null) return NoContent();
 
-                    return NoContent();
-
+                return  Ok(quadros);
 
             }
             catch (Exception ex)
@@ -62,8 +66,8 @@ namespace TaskPlanner.Controllers
             {
                 var quadro = await _quadroDeTarefasServico.PegarQuadroPorId(idQuadro);
                 if (quadro == null)
-                    return NoContent();
-                
+                    return NotFound();
+
                 return Ok(quadro);
             }
             catch (Exception ex)
@@ -75,17 +79,20 @@ namespace TaskPlanner.Controllers
 
         [HttpDelete]
         [Route("Remover/{idQuadro}")]
-        public IActionResult DeletarQuadro(int idQuadro)
+        public async Task<IActionResult> DeletarQuadro(int idQuadro)
         {
             try
             {
-                //Procurar no banco onde tem um quadro com idQuadro existente
-                //if (existequadro == null)
-                //    return NoContent();
-
-                //Chamar o código de remover
-
-                return Ok();
+                var quadro = await _quadroDeTarefasServico.PegarQuadroPorId(idQuadro);
+                if (quadro == null) return NoContent();
+                if (await _quadroDeTarefasServico.DeletarQuadro(quadro.IdQuadro))
+                {
+                    return Ok(new { message = "Deletado" });
+                }
+                else
+                {
+                    throw new Exception("Ocorreu um problema não específico ao tentar deletar Tarefa.");
+                }
             }
             catch (Exception ex)
             {
@@ -96,19 +103,14 @@ namespace TaskPlanner.Controllers
 
         [HttpPatch]
         [Route("{idQuadro}")]
-        public IActionResult AtualizarQuadro(int idQuadro, [FromBody] object tarefaDetalheDTO)
+        public async Task<IActionResult> AtualizarQuadro(int idQuadro, [FromBody] QuadroInfoDTO tarefaDetalheDTO)
         {
             try
             {
-                //Pegar do banco onde tarefa tenha idquadro e tarefaDetalhe.id existente
+                var quadro = await _quadroDeTarefasServico.AtualizarQuadro(idQuadro, tarefaDetalheDTO);
+                if (quadro == null) return NoContent();
 
-                //Procurar no banco onde tem uma tarefa com idQuadro e IdTarefa existente
-                //if (existeTarefa == null)
-                //    return NoContent();
-
-                //Chamar o código de atualizacao
-
-                return Ok();
+                return Ok(quadro);
             }
             catch (Exception ex)
             {

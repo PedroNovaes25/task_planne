@@ -40,12 +40,16 @@ namespace TaskPlanner.Aplicacao
 
         public async Task<QuadroInfoDTO> CriarQuadro(QuadroInfoDTO quadroInfo)
         {
-            var quadroModel = quadroInfo.CopiaParaModel();
-            _geralPersistencia.Add<QuadroDeTarefas>(quadroModel);
-            if (!await _geralPersistencia.SaveChangesAsync())
-                return null;
+            var quadro = quadroInfo.CopiaParaModel();
+            _geralPersistencia.Add<QuadroDeTarefas>(quadro);
 
-            return new QuadroInfoDTO(quadroModel);
+            if (await _geralPersistencia.SaveChangesAsync()) 
+            {
+                var quadroModel = await _quadroDeTarefasPersistencia.PegarQuadroPorId(quadro.IdQuadro);
+                return new QuadroInfoDTO(quadroModel);
+            }
+
+            return null;
         }
 
         public async Task<bool> DeletarQuadro(int idQuadro)

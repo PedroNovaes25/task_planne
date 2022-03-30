@@ -46,6 +46,7 @@ namespace TaskPlanner.Aplicacao
         {
             return new Tarefa
             {
+                IdTarefa = this.IdTarefa,
                 Titulo = this.Titulo,
                 DataCriacao = this.DataCriacao,
                 DataInicializacao = this.DataInicializacao,

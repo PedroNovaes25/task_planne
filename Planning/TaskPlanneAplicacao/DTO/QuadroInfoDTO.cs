@@ -13,11 +13,10 @@ namespace TaskPlanner.Aplicacao
 
         public QuadroInfoDTO(QuadroDeTarefas quadroDeTarefas)
         {
-            this.IdQuadro = IdQuadro;
-            this.Titulo = Titulo;
+            this.IdQuadro = quadroDeTarefas.IdQuadro;
+            this.Titulo = quadroDeTarefas.Titulo;
         }
 
-        [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public int IdQuadro { get; set; }
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public string Titulo { get; set; }
@@ -26,6 +25,7 @@ namespace TaskPlanner.Aplicacao
         {
             return new QuadroDeTarefas
             {
+                IdQuadro = IdQuadro,
                 Titulo = Titulo
             };
         }
