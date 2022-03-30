@@ -29,6 +29,7 @@ namespace TaskPlanner.Aplicacao
 
             var model = quadroInfoDTO.CopiaParaModel();
 
+            _geralPersistencia.Update<QuadroDeTarefas>(model);
             if (await _geralPersistencia.SaveChangesAsync())
             {
                 var eventoRetorno = await _quadroDeTarefasPersistencia.PegarQuadroPorId(model.IdQuadro);

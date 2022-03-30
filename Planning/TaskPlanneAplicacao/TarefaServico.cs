@@ -40,6 +40,8 @@ namespace TaskPlanner.Aplicacao
 
             var model = tarefaDTO.CopiaParaModel();
 
+            _geralPersistencia.Update<Tarefa>(model);
+
             if (await _geralPersistencia.SaveChangesAsync())
             {
                 var eventoRetorno = await _tarefaPersistencia.PegarTarefaPorId(model.IdTarefa);
