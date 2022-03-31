@@ -20,3 +20,8 @@ A Controller Quadro representa um quadro de tarefas, onde você pode; criar quad
 
 A Controller tarefa como o próprio nome diz, representa uma tarefa, onde podem ser feitas operações de; criar tarefa, excluir tarefa, obter uma tarefa pelo id e atualizar tarefa
 
+**Funcionamento**
+
+Primeiramente é necessário criar Um quadro de tarefas pela controller Quadro, depois disso, pela controller tarefas, é possivel criar 'n' tarefas e associar ao id do quadro criado.
+É possível cria 'n' quadros, e cada quadro pode ter 'n' tarefas.
+
