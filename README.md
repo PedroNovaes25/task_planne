@@ -25,3 +25,9 @@ A Controller tarefa como o próprio nome diz, representa uma tarefa, onde podem 
 Primeiramente é necessário criar Um quadro de tarefas pela controller Quadro, depois disso, pela controller tarefas, é possivel criar 'n' tarefas e associar ao id do quadro criado.
 É possível cria 'n' quadros, e cada quadro pode ter 'n' tarefas.
 
+### Detalhes 
+
+**Arquitetura** 
+
+Mesmo sendo um projeto pequeno, optei por usar Clean architecture para simular um pouco de uma aplicação que pode ter seu core reutilizado ao separar em camadas e também segui os princípios SOLID Como interface e inversão de dependência, para que seja possível uma mudança na implementação da persistência e da aplicação.
+
